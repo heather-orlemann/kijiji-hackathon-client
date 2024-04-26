@@ -7,8 +7,6 @@ import locaitonIcon from "../../assets/icons/location.svg";
 import { Link, useNavigate } from "react-router-dom";
 
 export default function Header() {
-  const navigate = useNavigate();
-
   return (
     <header className="header">
       <Link className="header__logo" href="/">

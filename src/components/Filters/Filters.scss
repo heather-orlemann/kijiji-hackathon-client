@@ -1,0 +1,9 @@
+@use "../../styles/partials/variables" as *;
+
+.filters {
+  padding: 1rem;
+  background-color: $Background-white;
+  &__title {
+    border-bottom: 0.6px solid #e0e0e0;
+  }
+}

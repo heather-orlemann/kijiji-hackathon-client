@@ -1,5 +1,5 @@
 import "./MingaDetailsComponent.scss";
-import MovingImage from "../../assets/images/moving-large.jpg";
+import MovingImage from "../../assets/images/moving-large.png";
 
 const MingaDetailsComponent = () => {
   return (

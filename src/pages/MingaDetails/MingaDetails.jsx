@@ -9,3 +9,5 @@ const MingaDetails=()=>{
         </div>
     )
 }
+
+export default MingaDetails;

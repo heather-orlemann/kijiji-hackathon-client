@@ -4,11 +4,10 @@
 @use "../../styles/partials/global.scss" as *;
 
 .form-container {
-    background: $Grey-text; 
+    background: $Background-white;
     padding: 20px;
     margin: auto;
     max-width: 1000px;
-    box-shadow: 0 4px 8px rgba($Dark-text, 0.1);
 
     h1{
         color: #373373;
@@ -22,10 +21,9 @@
       gap: 20px;
     }
     .form-section {
-        background: $Background-white;
+        background: $White;
         padding: 20px;
         box-shadow: 0 2px 4px rgba($Dark-text, 0.05);
-        border-radius: 20px
       }
 
     .form-heading {
@@ -71,6 +69,8 @@
         outline: none;
       }
     }
+
+    
 
     input[type="file"] {
         border: none;

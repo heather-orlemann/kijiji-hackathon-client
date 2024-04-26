@@ -13,7 +13,7 @@ h2, h3,p {
 .MD {
     display: flex;
     flex-direction: row;
-    padding: 0 0 0 3rem;
+    padding: 0 0 3rem 3rem;
     background-color: $Background-grey;
 
     &__main {
@@ -79,6 +79,7 @@ h2, h3,p {
 
     &__description {
         color: $Grey-text;
+        margin-bottom: 3rem;
     }
 
     &__input {
@@ -100,7 +101,7 @@ h2, h3,p {
     }
 
     &__avatar-container {
-        padding: 0 1rem 1.5rem 0;
+        padding: 1rem;
     }
 
     &__submit-comment {
@@ -136,10 +137,22 @@ h2, h3,p {
 
     &__comment {
         color: $Grey-text;
+        display: flex;
+        line-height: 40px;
     }
 
     &__comments-section {
         display: flex;
         flex-direction: row;
+        background-color: #FFF;
+        padding: 0.7rem;
+        margin: 1rem 0 1rem 0;
+        box-shadow: 5px 5px 10px rgba(0,0,0,0.1);
+    }
+
+    &__timestamp-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }

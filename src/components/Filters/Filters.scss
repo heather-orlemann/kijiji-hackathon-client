@@ -1,0 +1,81 @@
+@use "../../styles/partials/variables" as *;
+
+.filters {
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
+  p {
+    margin: 1rem 0;
+  }
+
+  &__container {
+    border-bottom: 0.6px solid #e0e0e0;
+    position: relative;
+  }
+  &__content {
+    font-size: 0.85rem;
+    padding-left: 0.5rem;
+  }
+  &__level-one {
+    font-size: 0.85rem;
+  }
+  &__level-two {
+    font-size: 0.85rem;
+    padding-left: 1rem;
+  }
+  &__selected {
+    border: 1px solid $Grey-text;
+    width: 70%;
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: #f3f3f8;
+    color: #36336f;
+    font-weight: 500;
+  }
+  &__view-more {
+    color: $Green-text;
+    font-weight: 600;
+  }
+  &__sub-category {
+    padding-left: 1rem;
+  }
+  &__icon {
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    height: 1rem;
+  }
+  &__upIcon {
+    transform: rotate(180deg);
+  }
+  &__price-inputs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  &__price-input {
+    width: 45%;
+    height: 2.5rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    &::placeholder {
+      padding-left: 0.5rem;
+    }
+  }
+  &__price-button {
+    width: 100%;
+    height: 2.5rem;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    border-radius: 4px;
+  }
+  &__price {
+    padding-bottom: 1rem;
+  }
+}

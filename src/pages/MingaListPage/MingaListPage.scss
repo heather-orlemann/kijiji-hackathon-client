@@ -1,0 +1,31 @@
+@use "../../styles/partials/variables" as *;
+.MingaListPage {
+  max-width: 80rem;
+  margin: 0 auto;
+
+  &__container {
+    display: grid;
+    grid-template-columns: 298fr 964fr;
+    gap: 1.25rem;
+    border-radius: 10px;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  &__title {
+    padding-left: 1rem;
+  }
+  &__link-directory {
+    font-size: 0.85rem;
+    padding: 1rem;
+    a {
+      color: $Dark-text;
+      text-decoration: none;
+    }
+  }
+  &__link {
+    padding-right: 0.5rem;
+  }
+}

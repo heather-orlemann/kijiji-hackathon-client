@@ -44,6 +44,7 @@ const MingaListPage = () => {
                 time={item.time}
                 distance={item.distance}
                 location={item.location}
+                event={item.event}
               />
             </div>
           ))}

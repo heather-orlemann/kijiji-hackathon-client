@@ -1,2 +1,145 @@
 @use '../../styles/partials/global.scss' as* ;
 @use '../../styles/partials/variables.scss' as* ;
+
+h1 {
+    font-size: 1.5rem;
+    color: $Dark-text;
+}
+
+h2, h3,p {
+    font-size: 1rem;
+}
+
+.MD {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 0 3rem;
+    background-color: $Background-grey;
+
+    &__main {
+        display: flex;
+        flex-direction: row;
+
+    }
+    &__main-wrapper {
+        width: 62vw;
+    }
+    &__subtitle {
+        color:$Green-text;
+        font-weight: 600;
+    }
+
+    &__photo {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 0 1rem 0;
+    }
+
+    &__icon-bar {
+        height: 60vh;
+        width: auto;
+        padding: 5rem 2rem 0 0;
+    }
+
+    &__details-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    &__details-left {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__details-right {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__label-wrapper {
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__label {
+        display: flex;
+        align-items: center;
+        color: $Grey-text;
+        font-weight: 600;
+        font-size: 0.8rem;
+        padding: 0 4px 0 4px;
+    }
+
+    &__description-label {
+        color: $Dark-text;
+        font-weight: 600;
+    }
+
+    &__description {
+        color: $Grey-text;
+    }
+
+    &__input {
+        color: $Dark-text;
+        font-size: 0.8rem;
+    }
+
+    &__ad {
+        width: 300px;
+        height: auto;
+        margin: 5.3rem 1rem 0 3rem;
+    }
+
+    &__join-discussion {
+        display: flex;
+        flex-direction: row;
+        justify-items: center;
+        margin: 2rem 0 2rem 0;
+    }
+
+    &__avatar-container {
+        padding: 0 1rem 1.5rem 0;
+    }
+
+    &__submit-comment {
+        height:36px;
+        width: 150px;
+        background-color: $Dark-text;
+        border-radius: 4px;
+        color: white;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 1rem;
+        font-family: Helvetica;
+        margin: 1rem 0 0 0;
+    }
+
+    &__comment-input-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__comment-input {
+        height: 10vh;
+        width: 43vw;
+        border-radius: 4px;
+        border-color: $Green-text;
+        padding: 0 0 3rem 0.3rem;
+    }
+
+    &__kijiji-user {
+        width: 300px;
+        margin: 1rem 1rem 1rem 2.5rem;
+    }
+
+    &__comment {
+        color: $Grey-text;
+    }
+
+    &__comments-section {
+        display: flex;
+        flex-direction: row;
+    }
+}

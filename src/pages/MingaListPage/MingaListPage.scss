@@ -2,9 +2,15 @@
 .MingaListPage {
   max-width: 80rem;
   margin: 0 auto;
-  gap: 1.25rem;
+
   &__container {
     display: grid;
     grid-template-columns: 298fr 964fr;
+    gap: 1.25rem;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
   }
 }

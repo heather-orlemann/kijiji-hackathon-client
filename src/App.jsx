@@ -3,30 +3,25 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import MingaListPage from "./pages/MingaListPage/MingaListPage";
-import MingaDetails from './pages/MingaDetails/MingaDetails';
-import PostMinga from './pages/PostMinga/PostMinga';
-
+import MingaDetails from "./pages/MingaDetails/MingaDetails";
+import PostMinga from "./pages/PostMinga/PostMinga";
 
 function App() {
   return (
     <>
-    <BrowserRouter>
-    <div>
-
-        {/* <Header /> */}
+      <BrowserRouter>
+        <div>
+          {/* <Header /> */}
           <Routes>
             <Route path="/" element={<MingaListPage />} />
             <Route path="/details" element={<MingaDetails />} />
             {/* <Route path="/post" element={<PostMinga />} />            */}
-
-          </Routes >
+          </Routes>
           {/* <Footer/> */}
-          </div>
-    </BrowserRouter>
-
-      
+        </div>
+      </BrowserRouter>
     </>
-);
+  );
 }
 
 export default App;

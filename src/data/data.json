@@ -1,0 +1,29 @@
+[
+    {
+        "id": "001",
+        "img_small": "/images/garden-small.png",  
+        "img_large": "/images/garden-large.png",
+        "title": "Gardening",
+        "location": "Toronto, ON",
+        "time": "1 hour",
+        "description": "Help me plant some flowers in my backyard."
+    },
+    {
+        "id": "002",
+        "img_small": "/images/moving-small.png",  
+        "img_large": "/images/moving-large.jpg",
+        "title": "Painting",
+        "location": "Toronto, ON",
+        "time": "2 hours",
+        "description": "Paint my living room."
+    },
+    {
+        "id": "003",
+        "img_small": "/images/paint-small.png",  
+        "img_large": "/images/paint-large.jpg",
+        "title": "Painting",
+        "location": "Toronto, ON",
+        "time": "2 hours",
+        "description": "Paint my living room."
+    }
+]

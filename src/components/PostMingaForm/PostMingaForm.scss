@@ -4,13 +4,18 @@
 @use "../../styles/partials/global.scss" as *;
 
 .form-container {
-    background-color: $Grey-text; 
+    background: $Grey-text; 
     padding: 20px;
     margin: auto;
-    max-width: 800px;
+    max-width: 1000px;
     box-shadow: 0 4px 8px rgba($Dark-text, 0.1);
 
-  
+    h1{
+        color: #373373;
+    }
+    p{
+        color:#373373;
+    }
     .post-ad-form {
       display: flex;
       flex-direction: column;
@@ -43,31 +48,35 @@
         label {
           font-size: 16px;
           color: $Dark-text; 
-
-        input[type="text"],
-        input[type="date"],~
-        input[type="email"],
-        input[type="tel"],
-        select,
-        textarea {
-          width: 100%;
-          padding: 10px;
-          border: 1px solid $Grey-text;
-          border-radius: 20px;
-  
-          &:focus {
-            border-color: $Grey-text;
-            outline: none;
-          }
-        }
-
-        input[type="file"] {
-          border: none;
-          margin-top: 5px;
-          border-radius: 20px;
-        }
+          margin-right: 10px;
       }
     }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="email"],
+    input[type="tel"],
+    select,
+    textarea {
+        width: 30%;
+        padding: 5px;
+        border: 1px solid $Grey-text;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+      
+
+      &:focus {
+        border-color: $Grey-text;
+        outline: none;
+      }
+    }
+
+    input[type="file"] {
+        border: none;
+        margin-top: 5px;
+        border-radius: 20px;
+      }
 
     button {
         padding: 10px 20px; // Retained from your original spec to keep the button padding consistent

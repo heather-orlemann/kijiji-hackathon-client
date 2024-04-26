@@ -1,5 +1,5 @@
 import "./MingaDetailsComponent.scss";
-import MovingImage from "../../assets/images/moving-large.jpg";
+import MovingImage from "../../assets/images/moving-large.png";
 import IconBar from "../../assets/icons/icon-bar.jpg";
 import EventIcon from "../../assets/icons/calendar-icon.svg";
 import LocationIcon from "../../assets/icons/location-icon.svg";

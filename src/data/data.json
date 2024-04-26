@@ -12,7 +12,7 @@
     },
     {
         "id": "002",
-        "img_small": "/images/moving-pic-small.png",
+        "img_small": "/images/paint-small.png",  
         "img_large": "/images/moving-large.jpg",
         "title": "3 - 5 people needed",
         "event": "Little Free Library Build Minga 📚🔨",
@@ -23,7 +23,7 @@
     },
     {
         "id": "003",
-        "img_small": "/images/paint-small.png",  
+        "img_small": "/images/moving-pic-small.png",
         "img_large": "/images/paint-large.jpg",
         "title": "5 - 10 people needed",
         "event": "Neighborhood Clean-Up Crew Day 🧹✨",

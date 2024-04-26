@@ -20,6 +20,9 @@ Connect with neighbors to collaborate on tasks and share skills.
 Celebrate accomplishments with post-event gatherings and shared meals.
 Enhance community cohesion and promote a sense of belonging.
 
-### Mock ups:
+### Mock ups of concept:
 
-
+![HomePage](https://github.com/heather-orlemann/kijiji-hackathon-client/blob/main/src/assets/mockups/HomePage.png)
+![ListPage](https://github.com/heather-orlemann/kijiji-hackathon-client/blob/main/src/assets/mockups/List%20Page.png)
+![DetailsHero](https://github.com/heather-orlemann/kijiji-hackathon-client/blob/main/src/assets/mockups/Details%20Hero.png)
+![DetailsInfo](https://github.com/heather-orlemann/kijiji-hackathon-client/blob/main/src/assets/mockups/Details%20Info.png)

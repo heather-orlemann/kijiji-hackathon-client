@@ -7,6 +7,12 @@ import locaitonIcon from "../../assets/icons/location.svg";
 import { Link } from "react-router-dom";
 
 export default function Header() {
+  const navigate = useNavigate();
+
+  const onClick = () => {
+    navigate("/post");
+  };
+
   return (
     <header className="header">
       <div className="header__container">
@@ -48,8 +54,9 @@ export default function Header() {
           <button>Sign In</button>
         </div>
 
-        <button className="header__post-ad-button">Post ad</button>
-      </div>
+      <button onClick={onClick} className="header__post-ad-button">
+        Post minga
+      </button>
     </header>
   );
 }

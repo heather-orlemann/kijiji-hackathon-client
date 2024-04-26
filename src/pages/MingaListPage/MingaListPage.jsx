@@ -9,7 +9,7 @@ const MingaListPage = () => {
   return (
     <div className="MingaListPage">
       <div className="MingaListPage__title">
-        <h1>Minga in Victoria</h1>
+        <h1>Mingas in Victoria</h1>
       </div>
       <div className="MingaListPage__container">
         <div className="MingaListPage__filters">

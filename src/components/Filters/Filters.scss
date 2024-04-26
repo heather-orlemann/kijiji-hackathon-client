@@ -16,19 +16,22 @@
   &__content {
     font-size: 0.85rem;
     padding-left: 0.5rem;
-    // color: $Grey-text;
   }
   &__level-one {
     font-size: 0.85rem;
   }
-  &__gardenContent {
+  &__level-two {
+    font-size: 0.85rem;
+    padding-left: 1rem;
+  }
+  &__selected {
     border: 1px solid $Grey-text;
     width: 70%;
     padding: 0.5rem;
     border-radius: 4px;
     background-color: #f3f3f8;
     color: #36336f;
-    font-weight: 600;
+    font-weight: 500;
   }
   &__sub-category {
     padding-left: 1rem;

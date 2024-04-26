@@ -18,7 +18,7 @@ const Filters = () => {
         />
         <div className="filters__sub-category">
           <p className=" filters__level-one">All categories</p>
-          <p className="filters__content filters__gardenContent">Gardening</p>
+          <p className="filters__content filters__selected">Gardening</p>
           <p className="filters__content">Moving</p>
           <p className="filters__content">Cleaning</p>
           <p className="filters__content">Cooking</p>
@@ -29,7 +29,7 @@ const Filters = () => {
       <div className="filters__location filters__container">
         <p className="filters__title">Location</p>
         <img src={downIcon} alt="up" className="filters__icon" />
-        <p className="filters_content"> Victoria</p>
+        <p className="filters__level-two"> Victoria</p>
       </div>
 
       <div className="filters__location filters__container">

@@ -1,6 +1,6 @@
-@use '../partials/mixins.scss' as* ;
-@use '../partials//typography.scss' as* ;
-@use '../partials/variables.scss' as* ;
+@use "../partials/mixins.scss" as *;
+@use "../partials//typography.scss" as *;
+@use "../partials/variables.scss" as *;
 
 *,
 *::before,
@@ -8,6 +8,6 @@
   box-sizing: border-box;
 }
 
- body {
-  font-family: 'Helvetica';
+body {
+  font-family: "Helvetica";
 }

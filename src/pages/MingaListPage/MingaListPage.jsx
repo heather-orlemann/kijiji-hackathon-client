@@ -1,9 +1,11 @@
 import "./MingaListPage.scss";
+import { useNavigate } from "react-router-dom";
 import Filters from "../../components/Filters/Filters";
 import ListItem from "../../components/ListItem/ListItem";
 import listData from "../../data/data.json";
 
 const MingaListPage = () => {
+  const navigate = useNavigate();
   return (
     <div className="MingaListPage">
       <div className="MingaListPage__title">
@@ -16,7 +18,11 @@ const MingaListPage = () => {
 
         <div className="MingaListPage__list">
           {listData.map((item) => (
-            <div key={item.id} className="MingaListPage__list-item">
+            <div
+              key={item.id}
+              className="MingaListPage__list-item"
+              onClick={() => navigate(`/details`)}
+            >
               <ListItem
                 img={item.img_small}
                 title={item.title}

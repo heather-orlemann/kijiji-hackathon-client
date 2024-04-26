@@ -1,0 +1,113 @@
+@use "../../styles/partials/typography.scss" as *;
+@use "../../styles/partials/mixins.scss" as *;
+@use "../../styles/partials/variables.scss" as *;
+@use "../../styles/partials/global.scss" as *;
+
+.form-container {
+    background: $Grey-text; 
+    padding: 20px;
+    margin: auto;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba($Dark-text, 0.1);
+
+    h1{
+        color: #373373;
+    }
+    p{
+        color:#373373;
+    }
+    .post-ad-form {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .form-section {
+        background: $Background-white;
+        padding: 20px;
+        box-shadow: 0 2px 4px rgba($Dark-text, 0.05);
+        border-radius: 20px
+      }
+
+    .form-heading {
+        font-size: 20px;
+        font-weight: bold;
+        color: $Grey-text; 
+        margin-bottom: 15px;
+      }
+
+    .hr {
+    border-top: 1px solid $Grey-text;
+    margin-bottom: 20px;
+    }
+
+    .form-group {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        label {
+          font-size: 16px;
+          color: $Dark-text; 
+          margin-right: 10px;
+      }
+    }
+
+    input[type="text"],
+    input[type="date"],
+    input[type="email"],
+    input[type="tel"],
+    select,
+    textarea {
+        width: 30%;
+        padding: 5px;
+        border: 1px solid $Grey-text;
+        border-radius: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+      
+
+      &:focus {
+        border-color: $Grey-text;
+        outline: none;
+      }
+    }
+
+    input[type="file"] {
+        border: none;
+        margin-top: 5px;
+        border-radius: 20px;
+      }
+
+    button {
+        padding: 10px 20px; // Retained from your original spec to keep the button padding consistent
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        margin-left: 2rem;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        text-align: center;
+        color: #ffffff; // FILL color for text
+        background-color: #373373; // BACKGROUND color
+        border-radius: 4px; // Rounded corners as specified
+        box-shadow: 0px 2px 10px rgba(55, 51, 115, 0.3); // BOX-SHADOW as given
+    
+        &:hover {
+        background-color: darken(#373373, 10%); // Darken on hover
+        }
+    
+        &.submit-button {
+            border-radius: 20px; 
+            &:hover {
+                background-color: #c0c0c0; 
+            }
+        }
+    
+        &.preview-button {
+            border-radius: 20px; 
+        &:hover {
+            background-color: #c0c0c0; 
+        }
+        }
+    }
+}

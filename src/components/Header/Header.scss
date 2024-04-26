@@ -1,15 +1,19 @@
 @use "../../styles/partials/variables" as *;
 
 .header {
-  display: flex;
-  width: 100%;
-  max-width: 80rem;
-  margin: 0 auto;
-  justify-content: center;
-  gap: 1rem;
-  height: 80px;
-  padding: 1rem 0;
-  font-family: "Helvetica";
+  background-color: $White;
+  &__container {
+    display: flex;
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 1rem;
+    height: 80px;
+    padding: 1rem 0;
+    font-family: "Helvetica";
+    background-color: $White;
+  }
 
   & button {
     font-size: 1rem;
@@ -48,7 +52,6 @@
     border-right: 1px solid #ececee;
     height: 100%;
     padding-right: 0.5rem;
-    background-color: $Background-white;
     font-size: 1rem;
     color: #6f727f;
     flex-grow: 1;

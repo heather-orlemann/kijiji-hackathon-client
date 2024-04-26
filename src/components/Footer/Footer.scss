@@ -1,0 +1,13 @@
+@use "../../styles/partials/variables" as *;
+
+.footer {
+  background-color: $Footer-grey;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  margin-top: 5rem;
+
+  & > img {
+    object-fit: cover;
+  }
+}

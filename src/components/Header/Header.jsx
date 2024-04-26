@@ -4,7 +4,7 @@ import search from "../../assets/icons/search.svg";
 import categoryDots from "../../assets/icons/category-dots.svg";
 import chevronDown from "../../assets/icons/chevron-down.svg";
 import locaitonIcon from "../../assets/icons/location.svg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function Header() {
   const navigate = useNavigate();
@@ -54,9 +54,10 @@ export default function Header() {
           <button>Sign In</button>
         </div>
 
-      <button onClick={onClick} className="header__post-ad-button">
-        Post minga
-      </button>
+        <button onClick={onClick} className="header__post-ad-button">
+          Post minga
+        </button>
+      </div>
     </header>
   );
 }

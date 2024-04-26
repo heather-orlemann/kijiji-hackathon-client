@@ -1,0 +1,10 @@
+@use "../../styles/partials/variables" as *;
+.MingaListPage {
+  max-width: 80rem;
+  margin: 0 auto;
+  gap: 1.25rem;
+  &__container {
+    display: grid;
+    grid-template-columns: 298fr 964fr;
+  }
+}

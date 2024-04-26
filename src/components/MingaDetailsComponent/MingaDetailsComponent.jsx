@@ -1,5 +1,5 @@
 import "./MingaDetailsComponent.scss";
-import MovingImage from "../../assets/images/moving-large.png";
+import GardeningImage from "../../assets/images/garden-large.png"
 import IconBar from "../../assets/icons/icon-bar.jpg";
 import EventIcon from "../../assets/icons/calendar-icon.svg";
 import LocationIcon from "../../assets/icons/location-icon.svg";
@@ -20,7 +20,7 @@ const MingaDetailsComponent = () => {
               Join Our Spring Garden Minga! BBQ & Music Included!
             </h1>
             <p className="MD__subtitle">5-10 people needed</p>
-            <img className="MD__photo" src={MovingImage} alt="moving"></img>
+            <img className="MD__photo" src={GardeningImage} alt="moving"></img>
             <div className="MD__details-wrapper">
               <div className="MD__details-left">
                 <div className="MD__label-wrapper">

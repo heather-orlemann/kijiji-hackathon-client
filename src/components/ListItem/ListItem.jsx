@@ -1,8 +1,15 @@
 import "./ListItem.scss";
 import heartIcon from "../../assets/icons/heart.png";
 
-const listItem = ({ img, title, location, time, distance, description }) => {
-  console.log(img);
+const listItem = ({
+  img,
+  title,
+  event,
+  location,
+  time,
+  distance,
+  description,
+}) => {
   return (
     <div className="listItem">
       <div className="listItem__image">
@@ -11,6 +18,9 @@ const listItem = ({ img, title, location, time, distance, description }) => {
       <div className="listItem__content-container">
         <div className="listItem__title">
           <p>{title}</p>
+        </div>
+        <div className="listItem__event">
+          <p className="listItem__event">{event}</p>
         </div>
         <div className="listItem__info-wrapper">
           <span className="listItem__location">{location}</span>

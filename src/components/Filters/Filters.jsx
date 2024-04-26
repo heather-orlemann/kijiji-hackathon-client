@@ -1,3 +1,4 @@
+import './Filters.scss';
 
 const Filters = () => {
     return (
@@ -7,11 +8,25 @@ const Filters = () => {
             </div>
 
             <div className="filters__title filters__container">
+                
                 </div>
 
-            <div className="filters__title filters__location">
-                <p>Location</p>
+                <div className="filters__title filters__location">
+                    <p>Location</p>
+                </div>
 
+                <div className="filters__title filters__price">
+                    <p>Price</p>
+                </div>
+
+                <div className="filters__title filters__offer">
+                    <p>Offer type</p>
+                    <p> Offering</p>
+                </div>
+
+                <div className="filters__title filters__payment">
+                    <p>Payment</p>
+                </div>
         </div>
     );
 };

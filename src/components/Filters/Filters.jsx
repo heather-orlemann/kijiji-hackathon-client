@@ -18,30 +18,48 @@ const Filters = () => {
         />
         <div className="filters__sub-category">
           <p className=" filters__level-one">All categories</p>
-          <p className="filters__content filters__selected">Gardening</p>
-          <p className="filters__content">Moving</p>
-          <p className="filters__content">Cleaning</p>
-          <p className="filters__content">Cooking</p>
-          <p className="filters__content">Other</p>
+          <p className="filters__content ">Community (41)</p>
+          <p className="filters__content filters__selected">Mingas (3)</p>
+          <p className="filters__content">Events (12)</p>
+          <p className="filters__content">Classes & Groups (5)</p>
+          <p className="filters__content">Artistis & Musicians (4)</p>
+          <p className="filters__content filters__view-more">View more</p>
         </div>
       </div>
 
       <div className="filters__location filters__container">
         <p className="filters__title">Location</p>
         <img src={downIcon} alt="up" className="filters__icon" />
-        <p className="filters__level-two"> Victoria</p>
+        <p className="filters__level-two">
+          Victoria, BC <span>·</span> 50km
+        </p>
       </div>
 
-      <div className="filters__location filters__container">
-        <div className="filters__price">
-          <p className="filters__title">Price</p>
-          <img
-            src={downIcon}
-            alt="up"
-            className="filters__icon filters__upIcon"
+      {/* <div className="filters__price "> */}
+      <div className="filters__price filters__container">
+        <p className="filters__title">Price</p>
+        <div className="filters__price-inputs">
+          <input
+            type="text"
+            placeholder="from"
+            className="filters__price-input"
+          />
+          <input
+            type="text"
+            placeholder="to"
+            className="filters__price-input"
           />
         </div>
+        <button className="filters__price-button">
+          <p className="filters__price-button-text">Apply</p>
+        </button>
+        <img
+          src={downIcon}
+          alt="up"
+          className="filters__icon filters__upIcon"
+        />
       </div>
+      {/* </div> */}
 
       <div className="filters__offer filters__container">
         <p className="filters__title">Offer type</p>
@@ -50,7 +68,7 @@ const Filters = () => {
           alt="up"
           className="filters__icon filters__upIcon"
         />
-        <p className="filters_content"> Offering</p>
+        <p className="filters__content filters__level-two"> Offering</p>
       </div>
 
       <div className=" filters__payment">

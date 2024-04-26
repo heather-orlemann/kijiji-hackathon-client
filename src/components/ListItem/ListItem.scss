@@ -25,11 +25,15 @@
     margin-top: 1rem;
   }
   &__info-wrapper {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 1rem;
     height: 1rem;
+    color: $Grey-text;
+    font-size: 0.85rem;
+    span:nth-child(2) {
+      padding: 0 0.5rem;
+      margin: 0 0.5rem;
+      border-left: 1px solid $Grey-text;
+      border-right: 1px solid $Grey-text;
+    }
   }
 
   &__image {
@@ -46,10 +50,7 @@
     color: $Green-text;
     font-weight: 700;
   }
-  &__location {
-    border-right: 1px solid $Grey-text;
-    padding-right: 1rem;
-  }
+
   &__description {
     color: $Grey-text;
     display: -webkit-box;

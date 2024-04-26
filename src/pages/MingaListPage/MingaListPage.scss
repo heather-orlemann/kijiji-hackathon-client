@@ -14,4 +14,18 @@
     flex-direction: column;
     gap: 0.5rem;
   }
+  &__title {
+    padding-left: 1rem;
+  }
+  &__link-directory {
+    font-size: 0.85rem;
+    padding: 1rem;
+    a {
+      color: $Dark-text;
+      text-decoration: none;
+    }
+  }
+  &__link {
+    padding-right: 0.5rem;
+  }
 }

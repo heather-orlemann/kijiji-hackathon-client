@@ -6,6 +6,7 @@
         "title": "5 - 10 people needed",
         "event": "Join Our Spring Garden Minga, BBQ & Music Included!",
         "location": "Victoria",
+        "distance" : "< 1.2 km",
         "time": "1 day ago",
         "description": "Hey neighbors! Are you ready to kickstart spring with a burst of greenery and good vibes? Join us for our Spring Garden Minga, where we're rolling up our sleeves to transform our community garden into a blooming paradise!"
     },
@@ -16,6 +17,7 @@
         "title": "3 - 5 people needed",
         "event": "Little Free Library Build Minga 📚🔨",
         "location": "Victoria",
+        "distance" : "< 4.2 km",
         "time": "1 week ago",
         "description": "Hey neighbors, We've recently moved into our new place and we're looking to freshen up our walls with a new coat of paint. No need for prior experience – just bring your willingness to lend a hand and we'll make it work, whether you're a seasoned pro or new to painting. "
     },
@@ -26,6 +28,7 @@
         "title": "5 - 10 people needed",
         "event": "Neighborhood Clean-Up Crew Day 🧹✨",
         "location": "Victoria",
+        "distance" : "< 2.2 km",
         "time": "1 week age",
         "description": "We're calling all residents to join hands in cleaning up our neighborhood! This is a fantastic opportunity to help beautify our community and enjoy the satisfaction of seeing immediate results. Bring your family and friends to make a visible difference together."
     }
